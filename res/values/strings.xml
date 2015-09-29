@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">希盟健康</string>
+    <string name="action_settings">Settings</string>
+    <string name="measureing">正在测量...</string>
+
+    <!-- 注册 -->
+    <string name="password_rule">密码长度超过范围（6到15个字符）</string>
+    <string name="string_must_agree">请阅读并同意希盟健康移动应用用户服务协议来注册账户</string>
+    <string name="verification_code">右侧验证码</string>
+    <string name="reset_your_password">重置您的登录密码</string>
+    <string name="display_password">显示密码</string>
+    <string name="find_password">找回密码</string>
+    <string name="resend_verification_code">重发验证码</string>
+    <string name="your_account">您的账号</string>
+    <string name="next">下一步</string>
+    <string name="string_send_again">重新发送</string>
+    <string name="string_please_input_vercode">请输入验证码</string>
+    <string name="string_send_vercode_now">请稍后</string>
+    <string name="string_forget_password">忘记密码</string>
+    <string name="string_vercode_request_error">您请求验证码间隔少于1分钟，请稍后重试！</string>
+    <string name="string_we_had">我们已经给</string>
+    <string name="string_send_messgae">发送了一条验证短信</string>
+    <string name="string_vercode_not_null">验证码不能为空</string>
+    <string name="string_vercode_format_error">验证码格式错误</string>
+    <string name="string_can_not_register">无法注册，请检查网络连接</string>
+	<string name="string_can_not_go_on">无法继续，请检查网络连接</string>
+	<string name="string_can_not_change_pwd">无法更改密码，请检查网络连接</string>
+	<string name="string_can_not_use_please_check_net">无法使用该功能，请检查网络连接</string>
+	<string name="string_logout_hit">您的账户在其他终端被登录或被修改。为保证数据一致性，您即将登出，本次离线数据将不被上传</string>
+    <!-- 绑定流程 -->
+    <string name="string_prepare_bond">准备操作</string>
+    <string name="string_prepare_bond_action1">长按5秒开启按钮</string>
+    <string name="string_prepare_bond_action2">佩戴头带</string>
+    <string name="string_prepare_bond_button">头带佩戴后，开始下一步</string>
+    <string name="string_prepare_bond_hint">请长按头带上部开启按钮5秒\n确保头带背部红灯长亮</string>
+    <string name="string_prepare_bond_hint2">请将头带佩戴于额头正中\n在双眉间上方额头较平的位置</string>
+    <string name="string_bound_fail_hint">连接设备失败！请确保头带在附近</string>
+    <string name="string_next">下一步</string>
+    <string name="string_not_found_qr">找不到二维码？</string>
+    <string name="string_not_found_qr_r">找不到二维码</string>
+    <string name="string_qr_info">请扫描二维码即可连接头带\n参见用户手册内连接说明部分</string>
+    <string name="string_had_found">已经找到</string>
+    <string name="string_open_bt">开启蓝牙</string>
+    <string name="string_bt_not_supported">您的手机不支持蓝牙</string>
+    <string name="string_opening_bt">开启蓝牙中</string>
+    <string name="string_bond_succ">连接设备中</string>
+    <string name="string_upload_succ">绑定设备</string>
+    <string name="string_finish">完成，开始测量</string>
+    <string name="bt_not_enabled_leaving">您没有开启蓝牙！</string>
+    <string name="string_cancel">取消</string>
+    <string name="string_scaning">正在搜索蓝牙设备</string>
+    <string name="string_return">连接成功，开始读取设备信息</string>
+    <string name="string_can_not_scaned">没有搜索到设备，开始重试</string>
+    <string name="string_disconntented">连接超时，开始重试 </string>
+    <string name="string_try_again">再试一次</string>
+    <string name="String_bluetooth_open_bounding_text">如弹出蓝牙配对对话框请点击确定</string>
+    <string name="String_bluetooth_open_bounding_choose_text">请选择头带设备</string>
+    <string name="String_bluetooth_open_bounding_choose_info_text">点击您的头带图标即可尝试连接</string>
+    <string name="String_bluetooth_open_bounded_fail_text">请重试</string>
+    <string name="String_bluetooth_open_bounded_fail_info_text">或选择	别的头带设备试试吧</string>
+    <string name="String_bluetooth_bound_text1">如弹出蓝牙配对对话框请点击确定</string>
+    <string name="string_bluetooth_bound_not_found">请保证设备处于开启状态，\n如弹出蓝牙配对对话框请点击确定</string>
+    <string name="String_bluetooth_bound_text2">如弹出开启蓝牙请点击确定</string>
+    <string name="String_bluetooth_bound_text3">如弹出蓝牙配对请点击确定</string>
+    <string name="String_bluetooth_bound_text5">请点击完成进入首页，开始连接测量</string>
+    <string name="String_bluetooth_bound_text6">绑定失败。请确保手机网络连接正常</string>
+   	<string name="string_bluetooth_bound_succ">恭喜，您已绑定成功</string>
+    <string name="string_bluetooth_bt_open_fail">开启蓝牙失败</string>
+    <string name="string_bluetooth_connect_fail">连接设备失败</string>
+    <!-- 运动监测 -->
+    <string name="string_begin_sport_measure_hit">为防止数据冲突\n开启运动监测将停止普通监测模式</string>
+    <string name="string_sport_measure_low">加油！目前运动强度不够，继续努力。</string>
+    <string name="string_sport_measure_middle">达到最佳运动状态！请继续保持。</string>
+    <string name="string_sport_measure_high">请注意！运动过量，请适当调整或休息。</string>
+    <string name="string_sport_measure_none">设备未连接，请点击开始运动进行连接</string>
+    <string name="string_sport_measure_loading">请稍后，设备连接中</string>
+    <string name="string_sport_measure_error">设备连接异常，请检查佩戴情况</string>
+    <string name="string_bound_at_home_page_please">请前往首页绑定设备</string>
+    <string name="string_please_select">请选择感兴趣的项目</string>
+    <string name="string_sport_measure">运动监测</string>
+    <string name="string_sport_time">运动时间</string>
+    <string name="string_time_non">-- : -- : --</string>
+    <string name="string_heard_rate_text">心率</string>
+    <string name="string_ox_text">血氧</string>
+    <string name="string_temperature_text">环境温度</string>
+    <string name="string_kaluli_text">卡路里</string>
+    <string name="string_body_temp_text">体温</string>
+    <string name="string_image">图片</string>
+    <string name="string_num">0</string>
+    <string name="string_respiratory_text">呼吸率</string>
+    <string name="string_begin">开始</string>
+    <string name="string_end">停止</string>
+    <string name="string_bpm">&#160;bpm</string>
+    <string name="string_kaluli_unit">&#160;Kcal</string>
+    <string name="string_ox_unit">&#160;%</string>
+    <string name="string_temp_unit">&#160;℃</string>
+    <string name="string_resp_unit">&#160;次/分</string>
+    <!-- 主页 -->
+    <string name="string_connect">连接</string>
+    <string name="string_device_battery">头带电量&#160;:&#160;</string>
+    <string name="string_device_status">头带状态&#160;:&#160;</string>
+    <string name="string_non">&#160;-&#160;-&#160;</string>
+    <string name="string_space">&#160;&#160;</string>
+
+    <!-- 我的 -->
+    <string name="string_my_device">我的设备</string>
+    <string name="string_device_manager">设备管理</string>
+    <string name="string_follow">关注帐号</string>
+    <string name="string_check_update">检查更新</string>
+    <string name="string_advice">我要反馈</string>
+    <string name="string_current_version">当前版本&#160;:&#160;</string>
+    <string name="string_edit">&#160;编辑</string>
+    <string name="string_iwanttoboundnewdevice">我想绑定新设备</string>
+    <string name="string_begin_bound">立即绑定</string>
+    <string name="string_bound_from_history">您可以通过历史记录绑定</string>
+    <string name="string_last_bound">上次绑定</string>
+    <string name="string_xlh">序列号</string>
+    <string name="string_requesting">正在查询，请稍后</string>
+    <string name="string_request_non">网络请求失败，请检查后重试</string>
+    <string name="string_nobounddevice">您尚未绑定设备！</string>
+    <string name="string_can_not_use">无法关注新账号，请检查网络连接</string>
+    <!-- 发现 -->
+    <string name="string_sleep">睡眠监控</string>
+    <string name="string_energy">能量消耗</string>
+    <string name="string_link_net_error_can_not_use">无法使用该功能，请检查网络连接</string>
+
+    <!-- 睡眠监控 -->
+    <string name="string_sleep_hit">目标睡眠8小时&#160;&#160;完成</string>
+    <string name="string_hour">小时</string>
+    <string name="string_min">分钟</string>
+    <string name="hr_info">心率是指心脏每分钟跳动的次数，用来描述心动周期的专业术语。健康成人的心率为60～100次/分，大多数为60～80次/分，女性稍快；3岁以下的小儿常在100次/分以上；老年人偏慢。</string>
+    <string name="spo2_info" formatted="false">血氧即血氧饱和度(SpO2)是血液中血氧的浓度，它是呼吸循环的重要生理参数。一般认SpO2正常应不低于94%，在94%以下为供氧不足。</string>
+    <string name="re_info">呼吸率是每分钟呼吸的次数，此处测量的是血液中氧气交换的现象，是有效吸入氧气的次数。正常成年人每分钟呼吸大约16-40次，小儿呼吸比成人快，每分钟可达20～44次。</string>
+    <string name="temp_info">体温是指身体内部胸腔，腹腔，中枢神经的温度，又称为体核温度，普通温度计测量的是皮肤温度也称体表温度，受环境影响较大，且低于体核温度。成人的体温范围为36.5 - 37.8摄氏度。</string>
+
+    <!-- 个人资料 -->
+    <string name="string_person_info">个人资料</string>
+    <string name="string_name">姓名</string>
+    <string name="string_man">男</string>
+    <string name="string_woman">女</string>
+    <string name="string_saving">正在保存</string>
+    <string name="string_registering">正在注册</string>
+    <string name="string_save">保存</string>
+    <string name="string_logout">注销</string>
+    <string name="string_cancle">取消</string>
+    <string name="string_select_from">从手机相册选择</string>
+    <string name="string_take">拍照</string>
+    <string name="string_birthday">选择日期</string>
+    <string name="string_determine">确定</string>
+    <string name="string_year">年</string>
+    <string name="string_month">月</string>
+    <string name="string_day">日</string>
+    <string name="string_can_not_null">请完善个人资料</string>
+    <string name="string_name_can_not_null">姓名不能为空</string>
+    <string name="string_sex_can_not_null">性别不能为空</string>
+    <string name="string_name_length_rule">名字长度应为2-15个字符</string>
+    <string name="string_name_rule">请输入2-15个字符的内容</string>
+    <string name="string_birthday_can_not_null">出生日期不能为空</string>
+    <string name="string_height_can_not_null">身高不能为空</string>
+    <string name="string_weight_can_not_null">体重不能为空</string>
+    <string name="string_cm">cm</string>
+    <string name="string_kg">kg</string>
+    <string name="string_height">身高</string>
+    <string name="string_weight">体重</string>
+    <string name="string_sex">性别</string>
+    <string name="string_notify_set">报警设置</string>
+    <!-- 关注帐号 -->
+    <string name="string_follow_text">一键开启关注帐号功能\n即可帮助您第一时间了解家人健康状态</string>
+    <string name="string_relevance">关注帐号</string>
+	<string name="string_had_relevance_id">已关注帐号</string>
+	<string name="string_cancel_relevance_fail">取消关注失败</string>
+	<string name="string_cancel_relevance_succ">取消关注成功</string>
+	<string name="string_relevance_fail">关注失败</string>
+	<string name="string_relevance_3009">抱歉，无法关注自己</string>
+	<string name="string_relevance_3010">对方应用版本过低，无法关注</string>
+	<string name="string_relevance_had_send">已发送，请等待对方接受</string>
+	<string name="string_relevance_had_rel">该账号已关注过</string>
+	<string name="string_phone_not_register">抱歉，此手机号未注册</string>
+    <!-- 消息列表 -->
+    <string name="string_my_notify">我的消息</string>
+    <string name="string_heart_rate_low">心率%1$d次/分,低于正常阈值</string>
+    <string name="string_heart_rate_hi">心率%1$d次/分,超过正常阈值</string>
+    <string name="string_res_rate_low">呼吸率%1$d次/分,低于正常阈值</string>
+    <string name="string_res_rate_hi">呼吸率%1$d次/分,超过正常阈值</string>
+    <string name="string_spo_low">血氧%1$s,低于正常阈值</string>
+    <string name="string_temp_low">体温%1$.1f ℃,低于正常阈值</string>
+    <string name="string_temp_hi">体温%1$.1f ℃,超过正常阈值</string>
+    <string name="string_are_you_sure_del_all_notify">你确定要删除所有消息吗？</string>
+    <string name="string_ok">确定</string>
+    <string name="string_no">取消</string>
+    <string name="string_accpet">接受</string>
+    <string name="string_had_accpet">已接受</string>
+    <string name="string_please_wait">请稍后</string>
+    <string name="string_no_more">没有更多数据了</string>
+    <string name="string_back">&#160;返回</string>
+	<!-- 报警设置 -->
+	<string name="string_heart">心率&#058;</string>
+	<string name="string_res">呼吸率&#058;</string>
+	<string name="string_temp">体温&#058;</string>
+	<string name="string_spo">血氧下限&#058;</string>
+	<string name="string_defalut">恢复默认</string>
+	<string name="string_break_line">&#126;</string>
+	<string name="string_res_unit">次&#047;分</string>
+	<string name="string_value_error_toast">请输入正确的%1$s值</string>
+	<string name="string_input_error">您输入的值有误，请检查后再试！</string>
+	<string name="string_input_rule">无法保存，阈值最大值小于最小值</string>
+	<string name="string_save_ok">保存成功</string>
+	<string name="string_save_false">操作失败</string>
+	<string name="string_notify_hit">温馨提示&#058;\n报警功能能够在您的健康参数不在指定范围内的情况下提醒您及时应对。通过调整各个参数的报警上下限可以改变这个指定范围，配置您自己的个性化报警。</string>
+	<string name="notify_content">您的健康指标有异常，请点击查看</string>
+	<string name="string_notify_request">请求关注您的健康信息</string>
+	<string name="string_notify_data_error">头带连接超时，自动断开连接</string>
+	
+	<!-- 运动报告 -->
+	<string name="sport_report_title_1">恭喜！继续加油吧。</string>
+	<string name="sport_report_title_2">您的训练强度还有待提高。 </string>
+	<string name="sport_report_title_3">您的训练强度有些过量。</string>
+	<string name="sport_report_content_1">您已经达到了一个比较不错的运动水平。 </string>
+	<string name="sport_report_content_2">适当增加您的运动强度，锻炼效果会更好。</string>
+	<string name="sport_report_content_3">请适当降低运动强度，防止潜在疾病的发生。</string>
+	
+	<string name="string_server_error">抱歉，服务器在开小差，请重试</string>
+</resources>

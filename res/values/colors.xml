@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="menu_text_selected">#27a9e5</color>
+    <color name="menu_text_unselected">#999999</color>
+    <color name="title_text">#ffffff</color>
+    <color name="home_head_num_text">#0267bf</color>
+    <color name="bg_main">#f0f4f7</color>
+    <color name="bg2_white">#ffffff</color>
+    <color name="line1_light_white">#eef4f8</color>
+    <color name="round_progress_norml">#eef4f8</color>
+    <color name="round_progress_press">#38b1ea</color>
+    <!-- 灰色 接近灰色 -->
+    <color name="round_progress_text_num">#333333</color>
+    <color name="round_progress_text_default">#9a9a9a</color>
+    <color name="bg_gray">#f6f6f6</color>
+    <color name="blue_text">#0e8ecd</color>
+    <color name="blue_text3">#17a7e6</color>
+    <color name="blue_text4">#47bbed</color>
+    <color name="gray_text">#999999</color>
+    <color name="blue_text2">#28a8e5</color>
+    <color name="gray_text2">#788490</color>
+    <color name="gray_text3">#8b8b8b</color>
+    <color name="gray_text4">#333333</color>
+    <color name="gray_text5">#35ade5</color>
+    <color name="black_text">#3e4f57</color>
+    <color name="black_text2">#666666</color>
+    <color name="red_text">#ff4d06</color>
+    <color name="red2_text">#f26f56</color>
+    <color name="red3_text">#f8530a</color>
+    <color name="green_text">#c6eef8</color>
+    <color name="green2_text">#a0a0a0</color>
+    <color name="yellow_text">#ffd10b</color>
+    <color name="home_blue">#0096de</color>
+    <color name="home_red">#e84138</color>
+    <color name="blue">#1ba5e4</color>
+
+    <drawable name="item_press">#f8f9fb</drawable>
+    <drawable name="item_norml">#ffffff</drawable>
+    
+    <!-- 运动进度条 -->
+    <color name="sport_color_yellow">#fad923</color>
+    <color name="sport_color_red">#f95d33</color>
+    <color name="sport_color_green">#83f16a</color>
+
+    <!-- 日历颜色 -->
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <color name="caldroid_font">#283E56</color>
+
+    <!-- 运动测量页面 -->
+    <color name="color_mesure_sport_top_bg">#0092e2</color>
+    <!-- 首页 电池布局背景颜色 -->
+    <color name="color_home_middle_bg">#0197df</color>
+    <!-- 睡眠监控 -->
+    <color name="font5_light_gray">#bcc1c6</color>
+    <color name="font_sleep1">#0A62A0</color>
+    <color name="font_sleep2">#37B0E9</color>
+    <color name="font_sleep3">#86E6FA</color>
+    <color name="font7_green">#28c44d</color>
+    <color name="font2_gray">#808c99</color>
+    <color name="line3_light_gray">#e0e1e2</color>
+    <color name="font3_sky_blue">#35ace4</color>
+	<color name="font1_blak">#506173</color>
+	<!-- 个人资料界面 -->
+	<color name="notify_set_color">#e7351c</color>
+</resources>

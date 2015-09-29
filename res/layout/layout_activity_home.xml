@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_activity_home_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.cim120.view.WaterWaveView
+                android:id="@+id/bg_gif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dip"
+                android:background="@drawable/img_mine_activity_head_bg" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dip"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/layout_main_logo"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/main_logo"
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_marginLeft="3dip"
+                        android:src="@drawable/icon_head_small" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/main_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/layout_main_logo"
+                    android:gravity="center|left"
+                    android:textColor="@color/bg2_white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_bell"
+                android:layout_width="46dip"
+                android:layout_height="46dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/id_bell"
+                    android:layout_width="16dip"
+                    android:layout_height="16dip"
+                    android:src="@drawable/img_bell" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.58"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+</LinearLayout>
